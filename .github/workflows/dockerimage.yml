@@ -1,0 +1,18 @@
+name: Docker Image CI
+
+on:
+  release:
+    types: [published]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@$(GITHUB_REF)
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag pjlamb12/angular-cli:$(GITHUB_REF)
+    - name: Push the Docker image
+      run: docker push pjlamb12/angular-cli:$(GITHUB_REF)
