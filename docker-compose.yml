@@ -1,0 +1,8 @@
+version: "3.0"
+
+services:
+  docker-angular-cli:
+    image: pjlamb12/angular-cli
+    build: .
+    environment:
+      NODE_ENV: production
