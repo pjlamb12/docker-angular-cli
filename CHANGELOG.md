@@ -22,7 +22,7 @@ Pushed an update based on `node:14-alpine` and `@angular/cli@10`
 
 Tag: `node14-cli10`
 
-## 2020-07-24
+## 2020-11-11
 
 Pushed an update based on `node:12-alpine` and `@angular/cli@11`
 
