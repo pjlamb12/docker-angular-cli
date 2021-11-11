@@ -37,3 +37,9 @@ Tag: `node14-cli11`
 Pushed an update based on `node:16-alpine` and `@angular/cli@12`
 
 Tag: `node16-cli12`
+
+## 2021-11-11
+
+Pushed an update based on `node:16-alpine` and `@angular/cli@13`
+
+Tag: `node16-cli13`
