@@ -1,4 +1,4 @@
-FROM node:16-alpine as node-angular-cli
+FROM node:18-alpine as node-angular-cli
 
 LABEL authors="Preston Lamb"
 
