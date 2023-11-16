@@ -67,3 +67,9 @@ Tag: `node18-cli15`
 Pushed an update based on `node:18-alpine` and `@angular/cli@16`
 
 Tag: `node18-cli16`
+
+## 2023-11-15
+
+Pushed an update based on `node:20-alpine` and `@angular/cli@17`
+
+Tag: `node20-cli17`
